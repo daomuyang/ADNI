@@ -1,0 +1,90 @@
+{
+  "fold": 1,
+  "best_score": 0.7619047619047619,
+  "best_metrics": {
+    "acc": 0.7619047619047619,
+    "balanced_acc": 0.7619047619047619,
+    "f1_macro": 0.744973544973545,
+    "f1_weighted": 0.7449735449735451,
+    "confusion": [
+      [
+        7,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        1
+      ],
+      [
+        1,
+        0,
+        6
+      ]
+    ],
+    "per_class": {
+      "CN": {
+        "precision": 0.6363636363636364,
+        "recall": 1.0,
+        "f1-score": 0.7777777777777778,
+        "support": 7.0
+      },
+      "MCI": {
+        "precision": 1.0,
+        "recall": 0.42857142857142855,
+        "f1-score": 0.6,
+        "support": 7.0
+      },
+      "AD": {
+        "precision": 0.8571428571428571,
+        "recall": 0.8571428571428571,
+        "f1-score": 0.8571428571428571,
+        "support": 7.0
+      },
+      "accuracy": 0.7619047619047619,
+      "macro avg": {
+        "precision": 0.8311688311688311,
+        "recall": 0.7619047619047619,
+        "f1-score": 0.744973544973545,
+        "support": 21.0
+      },
+      "weighted avg": {
+        "precision": 0.8311688311688311,
+        "recall": 0.7619047619047619,
+        "f1-score": 0.7449735449735451,
+        "support": 21.0
+      }
+    },
+    "pred_counts": {
+      "CN": 11,
+      "MCI": 3,
+      "AD": 7
+    },
+    "true_counts": {
+      "CN": 7,
+      "MCI": 7,
+      "AD": 7
+    },
+    "loss": 0.6564236019427577
+  },
+  "epochs": 45,
+  "train_split": {
+    "name": "fold1 train",
+    "n": 84,
+    "label_counts": {
+      "AD": 28,
+      "MCI": 28,
+      "CN": 28
+    }
+  },
+  "val_split": {
+    "name": "fold1 val",
+    "n": 21,
+    "label_counts": {
+      "AD": 7,
+      "CN": 7,
+      "MCI": 7
+    }
+  }
+}
